@@ -1,0 +1,30 @@
+{
+  "name": "looker-ask",
+  "version": "0.0.1",
+  "description": "Lambda function to allow Amazon Echo to speak updates and metrics from Looker",
+  "main": "index.js",
+  "author": "keith kirk <keith@kmfk.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-aws-lambda": "0.3.0",
+    "npm": "^2.13.0"
+  },
+  "dependencies": {
+    "alexa-app": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.3",
+    "moment-timezone": "^0.4.0",
+    "nonce": "^1.0.3",
+    "request": "^2.58.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "bundledDependencies": [
+    "alexa-app",
+    "moment",
+    "moment-timezone",
+    "sprintf-js",
+    "nonce",
+    "request"
+  ]
+}

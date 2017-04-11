@@ -1,0 +1,8 @@
+dist
+test.js
+node_modules
+utterances.txt
+schema.json
+config.js
+.idea/
+*.iml
